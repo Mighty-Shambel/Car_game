@@ -29,6 +29,14 @@ for u in phone:
  ut=ut+dic.get(u,'?')
 print(ut)
 
+def greet(first,last):
+    print(f"Hey {first} {last}!")
+    print("U Coding?")
+
+
+print("Heyy")
+greet('Mighty','Shambel')
+print("yeah i am")
 
 
 
